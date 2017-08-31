@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home's weather</title>
+</head>
+<style>
+    body{
+        width: 980px;
+        text-align: center;
+    }
+    .warp{
+        border: solid 1px #000;
+    }
+    .center{
+        display: inline-block;
+    }
+    .left{
+        width: 50%;
+        border-right: #000 1px solid;
+        float: left;
+    }
+    .right{
+        float: left;
+    }
+</style>
+
+<!--这个天气应用只显示青岛与昆明-->
+<h1 class="center">家的天气</h1>
+<div id="todaytime">今天是：</div>
+<div class="warp">
+    <div class="left ">
+        <h2 class="center">昆明</h2>
+        <h3>天气：</h3>
+        <h3>温度：</h3>
+        <h3>湿度：</h3>
+    </div>
+
+    <div class="right">
+        <h2 class="center">青岛</h2>
+        <h3>天气：</h3>
+        <h3>温度：</h3>
+        <h3>湿度：</h3>
+    </div>
+</div>
+<div id="content"></div>
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="test.js"></script>
+<script src="hmac-sha1.js"></script>
+<script src="weather.js"></script>
+</html>

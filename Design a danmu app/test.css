@@ -1,0 +1,14 @@
+.button {
+  width: 100px;
+  height: 40px;
+}
+.s_sub {
+  width: 100px;
+  height: 40px;
+  background: #44f;
+}
+.s_del {
+  width: 100px;
+  height: 40px;
+  background: #f04;
+}

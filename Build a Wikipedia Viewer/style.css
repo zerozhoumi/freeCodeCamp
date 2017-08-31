@@ -1,0 +1,17 @@
+body{
+    background-color: #B46845;
+    text-align: center;
+    color: #fff;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+}
+input{
+    width: 200px;
+    height: 28px;
+    border: none;
+    border-radius: 15px;
+}

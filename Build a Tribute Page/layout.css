@@ -1,0 +1,30 @@
+/*为了不让灰色铺满*/
+body {
+  margin: 100px 60px;
+  text-align: center;
+}
+/*设置内容层*/
+.warp{
+  background: #eee;
+}
+.picBox{
+  width: 600px;
+  border: 2px solid #999;
+  border-radius: 25px;
+  margin: 10px auto;
+}
+.picBox img{
+  padding-top:20px ;
+}
+.thingBox{
+  text-align: left;
+  margin-left: 260px;
+}
+.talkBox{
+  width: 50%;
+  text-align: right;
+  margin-left: 30%;
+}
+footer{
+  margin-top: 60px;
+}
